@@ -16,3 +16,9 @@ result-*
 
 # OS
 .DS_Store
+
+# Local config
+my-project/config.json
+firmware/src/config.h
+firmware/.pio/
+firmware/.vscode/

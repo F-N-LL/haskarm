@@ -9,10 +9,6 @@ library
   exposed-modules: Lib
   build-depends:
     , base           >=4.9 && <5
-    , http-conduit
-    , aeson
-    , process
-    , bytestring
 
 executable my-project
   main-is:        Main.hs
@@ -21,9 +17,13 @@ executable my-project
   build-depends:
     , base           >=4.9 && <5
     , my-project
+    , http-conduit
     , process
     , aeson
     , bytestring
+    , text
+    , unordered-containers
+    , scientific
 
 executable exec
   main-is:        App.hs
